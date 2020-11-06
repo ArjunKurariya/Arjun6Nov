@@ -1,0 +1,535 @@
+<html>
+
+    <head>
+    
+    <title>JAI SHREE RAM</title>
+        
+        <style type="text/css">
+        
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+        
+            
+            header{
+                background-image: url(backgrounds/Rectangle%2011.png);
+                background-repeat: no-repeat  ;
+                background: center cover;
+                width: 100vw;
+                height: 100vh;
+                margin-left: 85px;
+            }
+            
+            ul{
+              margin-left: auto;
+              margin-right: auto;
+              background-color: white;
+              border-radius: 5px;
+              width: 1000px;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+            }
+            
+            ul li{
+                display:inline-block;
+                text-decoration: none;
+                padding-left: 20px;
+                margin-top: 20px;
+                padding-right: 20px;
+                font-family: sans-serif;
+                font-size: 17px;
+            }
+            
+            
+            ul li:hover{
+                color:blue;
+            }
+            
+            
+            .menu_page{
+                display: flex; 
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            
+            
+            .lft{
+                color: white;
+            }
+            
+            
+            .lft h1{
+                font-size: 50px;
+                padding-top: 300px;
+                padding-left: 70px;
+            }
+            
+            .trends{
+             display: flex;
+             justify-content: center;
+            }
+            
+            /*Services*/
+             
+.services{
+  margin-top: 60px;
+  background: white;
+  text-align: center;
+}
+.services h1{
+  display: inline-block;
+  text-transform: uppercase;
+  border-bottom: 4px solid #3498db;
+  font-size: 20px;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+.cen{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.service{
+  display: inline-block;
+  width: calc(100% / 3);
+  margin: 0 -2px;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.service:hover{
+  background: #ddd;
+}
+.service i{
+  color: #3498db;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+.service h2{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+}
+
+            .bs{
+            margin-left:700px;
+            padding: 10px 14px;
+            font-size:16px;
+            background-color: white;
+            color: cornflowerblue;
+            border: 2px solid cornflowerblue;    
+            }            
+            
+            
+            /*Trends*/
+            
+            
+            .trend{
+                background-image: url(backgrounds/4683.png);  
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-right: 20px;
+                margin-left: 85px;
+                width: 100%;
+                height: 100vh;
+                background-repeat: no-repeat;
+                
+            }            
+            
+            
+            
+            .col{
+                padding-top: 230px;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+
+            
+            .r1{
+                flex-basis: 30%;
+            }
+            
+            .r2{
+                flex-basis: 30%;
+            }
+            
+            .r3{
+                flex-basis: 30%;
+            }
+            
+            
+            .col h1{
+                color: white;
+                font-family: sans-serif;
+                font-weight: lighter;
+                }
+            
+            .r1 h3,.r2 h3,.r3 h3{
+                color: white;
+                font-family: sans-serif;
+                font-size: 20px;
+                font-weight: lighter;
+            }
+            
+            
+            .col1{
+                background-image: url(backgrounds/Rectangle%2013.png);
+                width: 100%;
+                height: 100vh;
+                background-repeat: no-repeat;
+                margin-left: 85px;
+            }
+            
+            
+            /*Contact Us*/
+            
+            .col1{
+                display: flex;
+                width: 100%;
+                height: 100vh;
+                margin-left: 85px;
+            }
+            
+
+            
+            .r11{
+            flex-basis: 60%;  
+            font-size: 1.6rem;
+            color : whitesmoke ;  
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+            }  
+            .r12{
+              height: 500px;
+            }
+            
+            
+            
+            
+ 
+.container {
+  width: 90%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0px 0px 20px #00000010;
+  background-color: white;
+  border-radius: 8px;
+  height: 80vh;    
+}
+.form-group {
+  width: 100%;
+  font-size: 20px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 18px;
+}
+
+textarea {
+  resize: vertical;
+}
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-family: "Montserrat";
+  color: rgb(27, 166, 247);
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover {
+  background-color: rgb(214, 226, 236);
+}
+#status {
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 0 auto;
+}
+#status.success {
+  background-color: rgb(211, 250, 153);
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(250, 129, 92);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+            /*Footer*/
+            
+            .footer{
+            background-color: mediumslateblue;
+            padding: 30px;
+            margin-top: 0px;    
+            }
+        
+            .footer h4{
+                color: white;
+                font-family: sans-serif;
+                font-size: 20px;
+                
+            }
+
+
+            .button-container{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              text-align: center;
+            }
+
+            .trends{
+              font-size: 1.8rem;
+
+            }
+            .menu{
+              padding-top:20px ;
+            }
+            
+            
+        </style>
+        
+        
+    </head>
+
+    
+    
+    <body>
+    
+        <header>        
+
+            <div class="menu">
+        
+        <ul>
+        
+        <li>HOME</li>
+        <li>PORTFOLIO</li>
+        <li>TECHNOLOGIES</li>
+        <li>MARKETING INSIGHTS</li>
+        <li>SERVICES</li>
+        <li>ABOUT US</li>    
+        
+        </ul>
+        
+        </div>
+    
+            
+            <div class="menu_page">
+            
+            <div class="lft">
+                
+                <h1>LOREM  <br>  IPSUM</h1>
+                
+                </div>
+            
+            <div class="rgt">
+                
+                <img src="backgrounds/bitcoin_3d_logo.png">
+                
+                </div>
+            
+            </div>
+            
+            <div class="bot">
+            
+               <img src="icons/feature-bitcoin.png">
+               <img src="icons/feature-bitcoin%20copy.png">
+               
+                
+            </div>
+            
+            </header>
+
+            
+        
+           <!---------Services--------->
+        
+        
+        
+  <div class="services">
+      <h1>Our Services</h1>
+      <div class="cen">
+        <div class="service">
+          <img src="icons/Layer%203.png">
+          <h2>SMART CONTRACTS DEVELOPMENT</h2>
+          </div>
+
+        <div class="service">
+          <img src="icons/Layer%204.png">
+          <h2>EXCHANGES</h2>
+          </div>
+
+        <div class="service">
+          <img src="icons/Layer%205.png">
+          <h2>BLOCKCHAIN DEVELOPMENT</h2>
+          </div>
+
+        <div class="service">
+          <img src="icons/Network-512.png">
+          <h2>HYPERLEDGER</h2>
+          </div>
+
+        <div class="service">
+         <img src="icons/if_Dzone_669685.png">
+          <h2>PRIVATE BLOCKCHAIN DEVELOPMENT</h2>
+          </div>
+
+        <div class="service">
+          <img src="icons/Layer%206.png">
+          <h2>WALLET</h2>
+          </div>
+      </div>
+    </div>
+
+    <div class="button-container">
+
+      <button class="viewAll" type="submit" class="bs">View All Services</button>
+
+    </div>
+
+        
+       
+        
+        <!-------Trends------->
+        
+        <div class="trend">
+
+          <h1 class="trends" >TRENDS</h1>
+          <br>
+        
+        <div class="col">
+            
+            
+
+            
+            <div class="r1">
+            
+        <h3>How Blockchain Technology <br> will fortify  <br> Real State Industry</h3>        
+            
+                <img src="sliders/Real-Estate-Investment-Dropping.png">
+                
+            </div>
+            
+            
+            <div class="r2">
+            
+        <h3>Blockchain Technology <br> can help  <br> Fight Cyber crimes</h3>        
+            
+                <img src="sliders/cybercrime2.png">
+                
+            </div>
+            
+            
+            
+            <div class="r3">
+            
+        <h3>How Blockchain Technology <br> Contributing To  <br> Reasearch & Development</h3>        
+            
+                <img src="sliders/businessman-business-sketch.png">
+                
+            </div>
+            
+            
+        </div>
+        
+        </div>
+
+        <br><br><br> <br> <br>
+        
+        
+        
+        <!---------Contact Us--------->
+        
+        <div class="contact">
+        
+        <div class="col1">
+            
+            <div class="r11">
+            
+            <h3>New to the Blockhain Industry?<br>Or get any Queries?<br>We are just one click away!</h3>
+                
+            </div>
+            
+            <div class="r12">
+            
+  <div class="container">
+    <form action="https://formspree.io/mbjzbwaj" method="POST" id="my-form">
+
+      <div class="form-group">
+        <label for="firstName"> First Name</label>
+        <input type="text" id="firstName" name="firstName">
+      </div>
+
+      <div class="form-group">
+        <label for="latsName">Last Name</label>
+        <input type="text" id="lastName" name="lastName">
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div class="form-group">
+        <label for="massage">Massage</label>
+        <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <div id="status"></div>
+            
+            </div>
+            
+            </div>
+        
+        </div>
+        
+        
+        <!----------Footer--------->
+        
+        <div class="footer">        
+            <h4>Copyright 2009-2017 Oodlies Technologies.All right Reserved</h4>
+        </div>
+
+    </body>
+    
+</html>
